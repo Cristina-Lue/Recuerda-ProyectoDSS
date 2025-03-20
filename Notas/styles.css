@@ -1,0 +1,136 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dcb9b6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #436070;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-titulo, .input-nota {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Efectos cuando el campo de texto está enfocado */
+.input-titulo:focus, .input-nota:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.input-titulo {
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+.input-nota {
+    height: 150px;
+    resize: none;
+    color: #34495e;
+}
+
+.btn-guardar {
+    background-color: #6f3c49;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-guardar:hover {
+    background-color: #424e43;
+}
+
+.notas {
+    margin-top: 30px;
+}
+
+.nota {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 6px solid #1b4f72;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto de hover en las notas */
+.nota:hover {
+    transform: translateY(-5px);
+}
+
+.nota h3 {
+    margin: 0;
+    color: #647765;
+    font-size: 1.3rem;
+}
+
+.nota p {
+    color: #808a7a;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .input-titulo, .input-nota, .btn-guardar {
+        font-size: 1rem;
+    }
+}
+
+/* Estilo de los botones de editar y eliminar */
+.btn-editar, .btn-eliminar {
+    background-color: #39525f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-editar:hover {
+    background-color: #293b44;
+}
+
+.btn-eliminar {
+    background-color: #6f3c49;
+}
+
+.btn-eliminar:hover {
+    background-color: #5a313b;
+}
+
