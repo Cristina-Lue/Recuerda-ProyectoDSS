@@ -5,3 +5,5 @@ https://trello.com/b/CyB9Y510/recuerda-proyecto enlace a nuestra lista de tareas
 Yesenia Lizeth Hernandez Portillo - HP240153
 
 Cristina Aracely Perez Lue - PL240092
+
+Xenia Carolina Sanchez Mancia - SM232984
