@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5c9c2;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #dcb9b6;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 90px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Estilos de las tarjetas */
+  .card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .card a.btn-outline-primary {
+    border-color: #6f3c49; 
+    color: #6f3c49; 
+}
+
+.card a.btn-outline-primary:hover {
+    background-color: #6f3c49; 
+    color: #fff; 
+}
+
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #436070;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #587d91;
+  }
+  
+  .btn-secondary {
+    background-color: #6f3c49;
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #884b5a;
+  }
+
+  
+  

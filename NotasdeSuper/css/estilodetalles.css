@@ -1,0 +1,52 @@
+body {
+    background-color: #f1e3e3;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: #6f3c49;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary {
+    background-color: #647765;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #c36875;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #808a7a;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #436070;
+}
