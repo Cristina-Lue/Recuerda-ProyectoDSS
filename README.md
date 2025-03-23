@@ -12,5 +12,5 @@ Xenia Carolina Sanchez Mancia - SM232984
 
 ## Documentación
 
-Puedes descargar la documentación completa en formato PDF a continuación:
-[Descargar Documento] (https://github.com/Cristina-Lue/Recuerda-ProyectoDSS/tree/Documento/DSS-Pr.pdf)
+Puedes descargar la documentación completa en formato PDF a continuación: [Descargar Documento] (https://github.com/Cristina-Lue/Recuerda-ProyectoDSS/tree/Documento/DSS-Pr.pdf)
+
