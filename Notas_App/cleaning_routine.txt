@@ -1,0 +1,1 @@
+a:6:{s:6:"diario";s:0:"";s:5:"lunes";s:0:"";s:6:"martes";s:0:"";s:9:"miercoles";s:0:"";s:6:"jueves";s:0:"";s:7:"viernes";s:0:"";}
